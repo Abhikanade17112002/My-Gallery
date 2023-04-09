@@ -1,0 +1,178 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.main-container{
+    height: 100vh;
+    padding: 50px;
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-paragraph{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-paragraph h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+  
+}
+.left-paragraph p{
+    font-family: 'Arvo', serif;
+    font-size: 28px;
+    color: white;
+}
+
+
+.right-content{
+    color: rgb(254, 251, 251);
+    font-weight: bolder;
+    font-size: larger;
+    width: 50%;
+    display: grid;
+    
+
+    grid-template-columns: repeat(3 , 1fr)  ;
+    gap: 20px;
+    grid-auto-rows: 120px;
+    justify-content: center;
+    align-content: center;
+   
+
+}
+
+
+
+
+.col{
+    grid-column: span 2;
+}
+.row{
+    grid-row: span 2;
+}
+.box{
+    box-shadow: 5px 7px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    background-image: url(https://images.unsplash.com/photo-1679772080462-ffe507c0a35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: white;
+    
+    background-blend-mode: luminosity;
+    transition: all 1s ease-in-out ;
+}
+.box-1:hover{
+    background-position: center;
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+.box-2{
+    background-image: url(https://images.unsplash.com/photo-1679663877752-c00ad7f1c5c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-blend-mode: luminosity;
+    transition: all 1s ease-in-out ;
+
+}
+.box-2:hover{
+    background-position: bottom;
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+.box-3{
+    background-image: url(https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-blend-mode: luminosity;
+    transition: all 1s ease-in-out ;
+
+}
+.box-3:hover{
+    background-position: center;
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+.box-4{
+    background-image: url(https://images.unsplash.com/photo-1679498815865-38e8f03c8ed5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-blend-mode: luminosity;
+    transition: all 1s ease-in-out ;
+
+}
+.box-4:hover{
+    background-position: center;
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+
+.box-5{
+    background-image: url(https://images.unsplash.com/photo-1678834610584-5fd88f44cf0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-blend-mode: luminosity;
+    transition: all 1s ease-in-out ;
+
+}
+.box-5:hover{
+    background-position: center;
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+.box-6{
+    background-image: url(https://images.unsplash.com/photo-1680007631114-cc0b37816fff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: white;
+    background-blend-mode: luminosity;
+    transition: all 1s ease-in-out ;
+
+}
+.box-6:hover{
+    background-position: bottom;
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+.box-7{
+    background-image: url(https://images.unsplash.com/photo-1493130952181-47e36589f64d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8NDczMzAwMXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: top;
+    background-blend-mode: luminosity;
+    transition: all 1s ease-in-out ;
+
+}
+.box-7:hover{
+    background-position:bottom;
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+
+
